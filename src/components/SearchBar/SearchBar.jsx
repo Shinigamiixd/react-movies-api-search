@@ -26,7 +26,7 @@ const SearchBar = ({ setResults }) => {
     }
 
     return (
-        <form className={styles.searchcontainer}>
+        <form className={styles.searchcontainer} onSubmit={handleClick}>
             <input
                 type="text"
                 value={tempQuery}
@@ -36,7 +36,7 @@ const SearchBar = ({ setResults }) => {
             ></input>
             <button
                 type="submit"
-                onSubmit={handleClick}
+                onMouseDown={handleClick}
                 className={styles.searchbutton}>Search</button>
         </form>
     )
