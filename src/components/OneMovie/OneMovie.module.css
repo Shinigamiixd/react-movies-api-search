@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cardcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.itemcard{
+    width: 300px;
+    height: 455px;
+    margin: 4px;
+    text-align: center;
+    border: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.itemcardimg{
+    width: 250px;
+    height: 350px;
+    object-fit: contain;
+    border-radius: 35px;
+    transition: transform .5s;
+}
+
+.itemcardimg:hover{
+    transform: scale(1.35);
+}
+
+.nofoundlol{
+    margin: 50px;
+    text-align: center;
+}

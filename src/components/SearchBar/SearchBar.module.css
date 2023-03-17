@@ -1,0 +1,22 @@
+.searchcontainer{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.searchbar{
+    width: 50%;
+    height: 40px;
+    padding: 5px;
+    border-radius: 15px 0 0 15px;
+}
+
+.searchbutton{
+    width: 80px;
+    height: 54px;
+    border-radius: 0 15px 15px 0;
+}
+
+.searchbutton:hover{
+    cursor: pointer;
+}
